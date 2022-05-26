@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    border-bottom: 3px solid lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.userText {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
